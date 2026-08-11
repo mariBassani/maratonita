@@ -1,0 +1,14 @@
+# Executáveis
+*.exe
+*.out
+
+# Arquivos de compilação
+*.o
+*.obj
+
+# Visual Studio Code
+.vscode/
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
