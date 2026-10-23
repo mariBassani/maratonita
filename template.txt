@@ -2,14 +2,21 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+#define pb push_back
+#define INF 1e9
 
-int solve(){
-
+void solve(){
+    
 }
 
 int main(){
+
+    freopen("template.in", "r", stdin);
+    freopen("template.out", "w", stdout);
+
     cin.tie(0)->sync_with_stdio(0);
-    int t; cin >> t;
+    int t=1;
+    //int t; cin >> t;
     while(t--){
         solve();
     }

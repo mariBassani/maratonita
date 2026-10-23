@@ -25,9 +25,9 @@ void solve(){
 
 int main(){
 
-    freopen("speeding.in", r, stdin);
-    freopen("speeding.out", w, stdout);
-    
+    freopen("speeding.in", "r", stdin);
+    freopen("speeding.out", "w", stdout);
+
     cin.tie(0)->sync_with_stdio(0);
     int t=1;
     //int t; cin >> t;

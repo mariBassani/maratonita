@@ -5,7 +5,7 @@ using namespace std;
 
 void solve(){
     int n, k; cin >> n >> k;
-    vectro<int> d(n);
+    vector<int> d(n);
     for(int i=0; i< n; i++) cin >> d[i];
     sort(d.begin(), d.end());
     int ans=1, cont;
@@ -23,8 +23,8 @@ void solve(){
 
 int main(){
 
-    freopen("dond.in", "r", stdin);
-    freopen("dond.out", "w", stdout);
+    // freopen("dond.in", "r", stdin);
+    // freopen("dond.out", "w", stdout);
 
     cin.tie(0)->sync_with_stdio(0);
     int t=1;
