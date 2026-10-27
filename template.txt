@@ -11,8 +11,8 @@ void solve(){
 
 int main(){
 
-    freopen("template.in", "r", stdin);
-    freopen("template.out", "w", stdout);
+    //freopen("template.in", "r", stdin);
+    //freopen("template.out", "w", stdout);
 
     cin.tie(0)->sync_with_stdio(0);
     int t=1;

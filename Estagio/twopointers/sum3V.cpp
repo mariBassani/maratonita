@@ -13,8 +13,8 @@ void solve(){
         int s = k-(nums[i]);
         int p1=i+1, p2=n-1;
         while(p1!=p2){
-            if((p1+p2)>s)p2--;
-            else if((p1+p2)<s)p1++;
+            if((p1+p2)>s) p2--;
+            else if((p1+p2)<s) p1++;
             else {
                 cout << i << " " << p1 << " " << p2 << endl; 
                 break;
